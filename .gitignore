@@ -1,0 +1,19 @@
+# Ignorer l'environnement virtuel Python
+env/
+
+# Ignorer les fichiers cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les dépendances Node.js (dans frontend)
+frontend/node_modules/
+
+# Ignorer le build de Vue.js
+frontend/dist/
+
+# Ignorer les fichiers système et logs
+.DS_Store  # Pour Mac
+Thumbs.db  # Pour Windows
+*.log
